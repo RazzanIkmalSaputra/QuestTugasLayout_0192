@@ -88,4 +88,14 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             )
         }
 
+        Text(
+            stringResource(R.string.Copy),
+            modifier = Modifier
+                .align(Alignment.BottomCenter)
+                .padding(bottom = 30.dp),
+            fontSize = 12.sp,
+            color = Color.Black
+        )
+    }
 }
+
