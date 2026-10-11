@@ -99,3 +99,13 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
     }
 }
 
+@Composable
+fun WidgetCard(
+    nama: Int,
+    noTelp: Int? = null,
+    alamat: Int,
+    warnaBg: Int,
+    warnaNoTelp: Int? = null,
+    warnaAlamat: Int,
+    isCursive: Boolean = false
+) {
