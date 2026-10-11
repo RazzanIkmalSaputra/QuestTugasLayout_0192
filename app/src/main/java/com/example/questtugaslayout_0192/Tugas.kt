@@ -134,3 +134,24 @@ fun WidgetCard(
                     .padding(5.dp)
             )
 
+            Column(
+                horizontalAlignment = Alignment.CenterHorizontally,
+                modifier = Modifier.weight(1f)
+            ) {
+                Text(
+                    stringResource(nama),
+                    fontSize = 18.sp,
+                    fontFamily = if (isCursive) FontFamily.Cursive else FontFamily.Default,
+                    fontWeight = FontWeight.Bold,
+                    color = Color.White
+                )
+
+                if (noTelp != null && warnaNoTelp != null) {
+                    Text(
+                        stringResource(noTelp),
+                        fontSize = 12.sp,
+                        color = colorResource(warnaNoTelp),
+                        modifier = Modifier.padding(top = 2.dp)
+                    )
+                }
+
