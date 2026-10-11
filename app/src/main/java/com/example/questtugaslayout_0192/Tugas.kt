@@ -155,3 +155,21 @@ fun WidgetCard(
                     )
                 }
 
+                Text(
+                    stringResource(alamat),
+                    fontSize = 12.sp,
+                    color = colorResource(warnaAlamat),
+                    modifier = Modifier.padding(top = 2.dp)
+                )
+            }
+
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                modifier = Modifier
+                    .size(60.dp)
+                    .padding(5.dp)
+            )
+        }
+    }
+}
