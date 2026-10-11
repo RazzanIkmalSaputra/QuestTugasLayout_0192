@@ -117,3 +117,11 @@ fun WidgetCard(
             containerColor = colorResource(id = warnaBg)
         )
     ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(10.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
+
