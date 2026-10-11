@@ -124,4 +124,13 @@ fun WidgetCard(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
+            val gambar = painterResource(R.drawable.umy)
+
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                modifier = Modifier
+                    .size(60.dp)
+                    .padding(5.dp)
+            )
 
