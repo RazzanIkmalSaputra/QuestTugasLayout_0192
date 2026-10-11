@@ -50,3 +50,13 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                 color = Color.Black
             )
 
+            Spacer(modifier = Modifier.height(25.dp))
+
+            WidgetCard(
+                nama = R.string.Nama1,
+                alamat = R.string.Alamat1,
+                warnaBg = R.color.card_0_bg,
+                warnaAlamat = R.color.text_yellow,
+                isCursive = true
+            )
+
