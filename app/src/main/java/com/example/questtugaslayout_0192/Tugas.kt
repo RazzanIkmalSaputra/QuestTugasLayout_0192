@@ -60,3 +60,32 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                 isCursive = true
             )
 
+            WidgetCard(
+                nama = R.string.Nama2,
+                noTelp = R.string.Telp2,
+                alamat = R.string.Alamat2,
+                warnaBg = R.color.card_1_bg,
+                warnaNoTelp = R.color.text_cyan,
+                warnaAlamat = R.color.text_orange
+            )
+
+            WidgetCard(
+                nama = R.string.Nama3,
+                noTelp = R.string.Telp3,
+                alamat = R.string.Alamat3,
+                warnaBg = R.color.card_2_bg,
+                warnaNoTelp = R.color.text_cyan,
+                warnaAlamat = R.color.white
+            )
+
+            WidgetCard(
+                nama = R.string.Nama4,
+                noTelp = R.string.Telp4,
+                alamat = R.string.Alamat4,
+                warnaBg = R.color.card_3_bg,
+                warnaNoTelp = R.color.text_cyan,
+                warnaAlamat = R.color.white
+            )
+        }
+
+}
